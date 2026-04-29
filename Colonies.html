@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colònies d'Estiu El Castanyot 2026</title>
+  <style>
+    :root {
+      --orange-dark: #b84f12;
+      --orange-main: #f47b20;
+      --orange-soft: #fff1e6;
+      --orange-light: #ffe0c2;
+      --text: #2f2a24;
+      --white: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--orange-soft);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--orange-main), var(--orange-dark));
+      color: white;
+      padding: 42px 30px;
+      border-radius: 22px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.3rem;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      margin: 6px 0;
+      font-size: 1.1rem;
+    }
+
+    section {
+      background: var(--white);
+      padding: 28px;
+      border-radius: 18px;
+      margin-bottom: 22px;
+      box-shadow: 0 4px 12px rgba(184, 79, 18, 0.12);
+      border: 1px solid var(--orange-light);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: var(--orange-dark);
+      border-bottom: 2px solid var(--orange-light);
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      color: var(--orange-dark);
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: var(--orange-dark);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+
+    .group-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0 18px;
+    }
+
+    .mini-group {
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    .card {
+      background: var(--orange-soft);
+      border: 1px solid var(--orange-light);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .price {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: var(--orange-dark);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 14px;
+      margin-top: 12px;
+    }
+
+    th, td {
+      padding: 13px 12px;
+      border-bottom: 1px solid var(--orange-light);
+      text-align: left;
+    }
+
+    th {
+      background: var(--orange-main);
+      color: white;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .group-name {
+      font-weight: bold;
+      color: white;
+      padding: 6px 10px;
+      border-radius: 999px;
+      display: inline-block;
+      min-width: 76px;
+      text-align: center;
+    }
+
+    .menuts { background: #5b9be6; }
+    .petits { background: #001eff; }
+    .mitjans { background: #ff0000; }
+    .grans { background: #3f7f1f; }
+    .supers { background: #fff200; color: #111; }
+    .joves { background: #a100ff; }
+
+    .secretaria-table td:first-child {
+      width: 35%;
+      font-weight: bold;
+      color: var(--orange-dark);
+    }
+
+    .secretaria-note {
+      margin-top: 14px;
+      background: var(--orange-soft);
+      border-left: 5px solid var(--orange-main);
+      padding: 14px 16px;
+      border-radius: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--orange-dark);
+      margin-top: 30px;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page {
+        padding: 0;
+      }
+
+      section, header {
+        box-shadow: none;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Colònies d’Estiu El Castanyot 2026</h1>
+      <p><strong>Del 21 al 31 de juliol</strong></p>
+      <p>Casa de colònies Can Sans de Fellines</p>
+    </header>
+
+    <section>
+      <h2>Presentació</h2>
+      <p>
+        Les Colònies d’Estiu del Castanyot són unes colònies on cada grup està basat en un
+        <span class="highlight">centre d’interès</span>.
+      </p>
+      <p>
+        Els infants i joves viuran uns dies de convivència, activitats i experiències compartides,
+        acompanyats per monitors i monitores voluntaris/es.
+      </p>
+    </section>
+
+    <section>
+      <h2>Dates, preus i grups</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Del 21 al 31 de juliol</h3>
+          <div class="group-list">
+            <span class="mini-group petits">Petits</span>
+            <span class="mini-group mitjans">Mitjans</span>
+            <span class="mini-group grans">Grans</span>
+            <span class="mini-group supers">Súpers</span>
+            <span class="mini-group joves">Joves</span>
+          </div>
+          <p><strong>Durada:</strong> 11 dies</p>
+          <p class="price">400 €</p>
+        </div>
+
+        <div class="card">
+          <h3>Del 27 al 31 de juliol</h3>
+          <div class="group-list">
+            <span class="mini-group menuts">Menuts</span>
+          </div>
+          <p><strong>Durada:</strong> 5 dies</p>
+          <p class="price">200 €</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Quins grups tenim al Castanyot?</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Grup</th>
+            <th>Cursos</th>
+            <th>Any de naixement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="group-name menuts">Menuts</span></td>
+            <td>Infantil (I3, I4, I5)</td>
+            <td><strong>2022, 2021, 2020</strong></td>
+          </tr>
+          <tr>
+            <td><span class="group-name petits">Petits</span></td>
+            <td>1r–2n Primària</td>
+            <td><strong>2019, 2018</strong></td>
+          </tr>
+          <tr>
+            <td><span class="group-name mitjans">Mitjans</span></td>
+            <td>3r–4t Primària</td>
+            <td><strong>2017, 2016</strong></td>
+          </tr>
+          <tr>
+            <td><span class="group-name grans">Grans</span></td>
+            <td>5è–6è Primària</td>
+            <td><strong>2015, 2014</strong></td>
+          </tr>
+          <tr>
+            <td><span class="group-name supers">Súpers</span></td>
+            <td>1r–2n ESO</td>
+            <td><strong>2013, 2012</strong></td>
+          </tr>
+          <tr>
+            <td><span class="group-name joves">Joves</span></td>
+            <td>3r ESO, 4t ESO, 1r Batxillerat</td>
+            <td><strong>2011, 2010, 2009</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Inscripcions a Secretaria</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Exclusiu Sòcis</h3>
+          <p><strong>Dimarts:</strong> 05/05, 12/05, 19/05</p>
+          <p><strong>Dissabte:</strong> 16/05</p>
+          <p><strong>Horaris:</strong><br>17:30 a 19:30 (dimarts)<br>17:00 a 17:30 i 19:30 a 20:00 (dissabte)</p>
+        </div>
+
+        <div class="card">
+          <h3>Sòcis + No sòcis</h3>
+          <p><strong>Dimarts:</strong> 26/05, 09/06</p>
+          <p><strong>Dissabtes:</strong> 23/05, 30/05</p>
+          <p><strong>Horaris:</strong><br>17:30 a 19:30 (dimarts)<br>17:00 a 17:30 i 19:30 a 20:00 (dissabte)</p>
+        </div>
+      </div>
+
+      <p class="secretaria-note">
+        Places limitades.
+      </p>
+    </section>
+
+    <section>
+      <h2>Comunicació</h2>
+      <p>
+        Es faran grups de WhatsApp amb les famílies, i per aquests grups es passarà tota la
+        informació relacionada amb les colònies.
+      </p>
+    </section>
+
+    <footer>
+      El Castanyot · Colònies d’Estiu 2026
+    </footer>
+  </main>
+</body>
+</html>
+
